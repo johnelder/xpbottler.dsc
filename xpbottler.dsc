@@ -20,7 +20,7 @@
 # --------------------------- World Scripts --------------------------
 XpBottler:
   type: world
-  debug: true
+  debug: false
   events:
     on player right clicks with XpEmpty using hand:
       - if <player.xp_total> >= 100:
